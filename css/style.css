@@ -1,0 +1,46 @@
+body {
+	background: #fff;
+	margin: 0px;
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	color: #000;
+}
+
+h2 {
+	font-size: 2.6em;
+	font-weight: 700;
+}
+
+p {
+	font-size: 1.6em;
+	font-weight: 400;
+}
+
+a {
+	color: #FA6900;
+}
+
+#container {
+	border-color: #F38630;
+	border-style: solid;
+	border-width: 20px 0px 0px 0px;
+	padding: 100px 20px;
+}
+
+	@media (min-width: 500px) {
+	  #container {
+		  padding: 150px 0px;
+		  text-align: left;
+	  }
+	}
+	
+#main {
+	max-width: 700px;
+	margin: 0px auto;
+	padding: 0px 20px;
+}
+
+.disclaimer {
+	font-size: 1em;
+	margin: 60px 0px 0px 0px;
+}
